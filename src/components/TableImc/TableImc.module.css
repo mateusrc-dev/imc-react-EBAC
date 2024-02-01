@@ -1,0 +1,34 @@
+.table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 16px;
+}
+
+.thead {
+    border: 1px solid var(--corSecundaria);
+    background: var(--corPrincipal);
+    border-radius: 10px 10px 0 0; 
+    border: none;
+
+    tr {
+        th {
+            padding: 12px;
+        }
+    }
+}
+
+.tbody {
+    tr {
+        background-color: antiquewhite;
+        td {
+            padding: 12px;
+            text-align: center;
+        }
+    }
+}
+
+.selectedField {
+    td {
+        background-color: chartreuse;
+    }
+}
